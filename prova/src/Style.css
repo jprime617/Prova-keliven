@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #170C26;
+}
+
+.containerH{
+    display: flex;
+    background-color: #0D0D0D;
+    align-items: center;
+    height: 50px;
+    justify-content: center;
+}
+
+.containerH img{
+    width: 100px;
+    height: 30px;
+}
+
+
+.container{
+    display: flex;
+    align-items: center;
+    background-color: #59050C;
+    margin-bottom: 30px;
+}
+
+.texto{
+    flex: 1;
+    padding: 20px;
+    color: #F6F6F6;
+}
+
+.texto h1{
+    font-size: 40px;
+}
+
+.imagem{
+    flex: 1;
+    text-align: center;
+}
+
+.imagem img{
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 20px;
+}
+
+.containerG{
+    display: flex;
+    background-color: #170C26;
+}
+
+.galeria{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.galeria img{
+   width: 300px;
+   height: 300px;
+   padding: 20px;
+   transition: transform 0.2s;
+}
+
+.galeria img:hover{
+    transform: scale(1.1);
+}
+
+.containerF{
+    display: flex;
+    bottom: 0;
+    left: 0;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #0D0D0D;
+}
+
+.containerF h1{
+    color: #F6F6F6;
+    font-size: 15px;
+}
+
+
+@media screen and (max-width: 600px){
+    .texto h1{
+        font-size: 20px;
+    }
+    .texto h2{
+        font-size: 11px;
+    }
+    .texto h3{
+        font-size: 11px;
+    }
+    .galeria img{
+        width: 150px;
+        height: 150px;
+        padding: 5px;
+    }
+}
